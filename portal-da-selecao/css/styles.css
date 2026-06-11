@@ -1,0 +1,48 @@
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    align-items: center;
+}
+
+#cabecalho img {
+    width: 150px;
+}
+
+body {
+    margin: 0;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+}
+
+#convocados {
+    background-color: yellow;
+}
+
+#agenda-de-jogos {
+    background-color: greenyellow;
+}
+
+#form-de-apoio {
+    background-color: rgb(16, 60, 252);
+}
+
+#container-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jogadores {
+    height: 32rem;
+    width: 18rem;
+    border: black 2px solid;
+    margin: 0.5rem;
+}
+
+#jogadores img{
+    height: 22rem;
+    width: 18rem;
+}
