@@ -11,8 +11,13 @@ form.addEventListener('submit', function(event) {
     console.log(dados);
 })
 
-neyma.addEventListener('click', function(event) {
+neyma.addEventListener('mouseenter', function(event) {
     neyma.src = "img/neyma.jpg";
     neyma.alt = "little neynmar";
 })
 
+neyma.addEventListener('mouseleave', function(event) {
+    neyma.src = "img/ney.jpg";
+    neyma.alt = "neynmar default";
+    neyma.style.transform = "scale(1)";
+})
