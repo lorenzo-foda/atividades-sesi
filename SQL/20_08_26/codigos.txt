@@ -1,0 +1,20 @@
+Create table produtos(
+	id serial primary key,
+	item varchar(100) not null,
+	qtd_estoque int,
+	custo_unitario decimal(10, 2)
+)
+
+
+
+Insert into produtos(item, qtd_estoque, custo_unitario)
+VALUES
+('CDB', 10, 10000.69)
+
+
+
+SELECT
+id,
+qtd_estoque,
+custo_unitario,
+(qtd_estoque * custo_unitario) as total from produtos
